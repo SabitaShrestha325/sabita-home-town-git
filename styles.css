@@ -1,106 +1,77 @@
-body{
-    background:linear-gradient(#8ecae6, #588157, #219ebc, #A3B18A ); 
- color: white;
-    
+body {
+    background: linear-gradient(#8ecae6, #588157, #219ebc, #A3B18A);
+    color: white;
     font-family: "Sofadi One", system-ui;
 }
 
-.header{
+.header {
     text-shadow: 2px 2px black;
     text-align: center;
     font-weight: bold;
 }
-.capital{
+
+.capital {
     margin-top: 10px;
     text-align: center;
-
-
 }
 
-.about{
+.about {
     text-align: left;
 }
-.ktm{
+
+.ktm {
     margin-top: 10px;
     width: 400px;
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 7px solid #588157;
+}
 
-   border: 7px solid #588157;
-   
-    
-   }
-    
-.stupa{
-    width:400;
+.stupa {
+    width: 400;
     height: 300px;
     display: block;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
-    
     border: 5px solid bisque;
-    
     border-radius: 50%;
-    }
-    .img{
-        margin-left: auto; 
-        margin-right: auto;
-        display: block;
-        width: 400px;
-        margin-left: px;
-        background-image: url("food.png");
-        border:5px solid azure;
-    }
-     h3{
-        margin-top:10px;
-        margin-bottom:0 ;
+}
 
-    }
-    #text{
-        margin-top: 10px;
-        width: 200px;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 20px;
-        display: inline-block;
-        text-align: center;
-        color:#A3B18A
-    }
-    #password{
-        
-        width: 200px;
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 20px;
-        display: inline-block;
-        text-align: center;
-        color: #A3B18A;
-    }
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+    margin-left: px;
+    background-image: url("food.png");
+    border: 5px solid azure;
+}
 
-     #footer{
-        font-weight: 800;
-    }
-    a{
-        color: white;
-    }    
-        
+.carousel {
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 20px;
+}
 
-      
+#Nepal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    margin-top: 15px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid #8ecae6;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    
-    
-    
+#footer {
+    font-weight: 800;
+    text-align: center;
+}
 
-    
-            
-        
-            
-            
-        
-            
-
-        
-       
-
+a {
+    color: white;
+}
